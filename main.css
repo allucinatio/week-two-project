@@ -394,8 +394,27 @@ h2 {
       padding-top: 0;
     }
 
+    .gallery {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+
+    }
+
     .film-wrapper {
 
+      flex-basis: 45vw;
+
+
+    }
+
+    .film-item {
+      flex-basis: 20vw;
+    }
+
+    #large-gallery {
+      flex-wrap: nowrap;
+      max-height: 36vw;
     }
 
     .lower-nav .nav-wrapper{
