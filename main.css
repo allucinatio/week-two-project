@@ -287,10 +287,6 @@ h2 {
 
 @media screen and (min-width : 545px) and (max-width : 768px) {
 
-  body {
-    background: #afeeee;
-  }
-
   .nav-wrapper {
     flex-direction: row;
     height: 7.25rem;
@@ -335,9 +331,7 @@ h2 {
 
   #large-gallery div{
     flex-basis: 44vw;
-
     margin: 0;
-
   }
 
   #large-gallery img{
@@ -376,9 +370,7 @@ h2 {
 }
 
 @media screen and (min-width : 769px) {
-    body {
-      background: #fff0f5;
-    }
+
 
     .nav-wrapper {
       flex-direction: row;
@@ -394,28 +386,36 @@ h2 {
       padding-top: 0;
     }
 
+    .three-col {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 93vw;
+    }
+
+    .col {
+      flex-basis: 27vw;
+    }
+
     .gallery {
       display: flex;
       flex-wrap: nowrap;
       align-items: flex-start;
-
     }
 
     .film-wrapper {
-
       flex-basis: 45vw;
-
-
+      padding-top: 2rem;
     }
 
     .film-item {
       flex-basis: 20vw;
     }
 
-    #large-gallery {
-      flex-wrap: nowrap;
-      max-height: 36vw;
+    .film-item img{
+      max-width: 20vw;
     }
+
+
 
     .lower-nav .nav-wrapper{
       height: 7.25rem;
